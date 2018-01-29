@@ -1,0 +1,35 @@
+{
+  "name": "peregrinus/psalmody",
+  "description": "Learn psalmodies",
+  "minimum-stability": "alpha",
+  "license": "gpl-3.0+",
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/potofcoffee/cadre.git"
+    }
+    {
+      "type": "git",
+      "url": "https://github.com/potofcoffee/psalmody.git"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Christoph Fischer",
+      "email": "chris@toph.de"
+    }
+  ],
+  "require": {
+    "peregrinus/cadre": "dev-master",
+    "electrolinux/phpquery": "*",
+    "phpoffice/phpspreadsheet": "*",
+    "miniflux/picofeed": "*",
+    "cmfcmf/openweathermap-php-api": "*",
+    "google/apiclient": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Peregrinus\\Psalmody\\": "Classes/"
+    }
+  }
+}
